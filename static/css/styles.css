@@ -1,0 +1,28 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 10px 30%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    background-color: rgb(15, 150, 150);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgba(15, 150, 150, 0.8);
+  }
+
+.tetris {
+}

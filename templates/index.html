@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+        <link href="https://fonts.googleapis.com/css?family=Barlow|Roboto+Mono|Roboto+Slab" rel="stylesheet"> 
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+    </head>
+    <body>
+        <h1>Tetris</h1>
+        <p>Play some tetris!</p>
+        <div id="tetris" class="tetris"></div>
+        <button id="start-button" onclick="playTetris();">Start game</button>
+        <h3>Conrtols</h3>
+        <p>Clockwise spin: right arrow</p>
+        <p>Anticlockwise spin: left arrow</p>
+        <p>Move left: a</p>
+        <p>Move right: d</p>
+        <p>Soft drop: s</p>
+    </body>
+    <script src="{{ url_for('static', filename='js/tetrominoes.js') }}"></script>   
+    <script src="{{ url_for('static', filename='js/grid.js') }}"></script>    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</html>
